@@ -1,0 +1,48 @@
+
+body {
+}
+
+.footer-form {
+  margin-top: 15px;
+}
+
+.logo {
+	margin-bottom: 125px;
+}
+
+.logo-image {
+	height: 75px;
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+
+		.logo-image {
+			height: 70px;
+			padding-bottom: 10px;
+		}	
+}
+
+
+.formulario-margin{
+	margin-top: 1rem;
+}
+
+/* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #1565c0;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #1565c0;
+     box-shadow: 0 1px 0 0 #1565c0;
+   }
+  
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #1565c0;
+   }

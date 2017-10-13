@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <link type="text/css" rel="stylesheet" href="css/style.css"  />
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <title>Look It</title>
+      <link rel="icon" type="" src="images/minilogo.png"  />
+    </head>
+
+    <body class="">
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <nav>
+        <div class="nav-wrapper blue darken-3">
+          <a href="index.html" class="brand-logo black-text"><img src="images/logo.png" class="logo-image"></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="" class="">Quienes somos</a></li>
+            <li><a href="" class="">Productos</a></li>
+            <li><a href="" class="">Servicios</a></li>
+            <li><a href="" class="">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+
+        <div class="row formulario-margin">
+              <div class="col s12 m10 l8">
+                    <h5>Paso 2: Ingrese datos del examen realizado al paciente</h5>
+              </div>
+        </div>
+        <div class="row formulario-margin">
+          <form class="col s12">
+            Ojo izquierdo
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">remove_red_eye</i>
+                <input  id="first_name" type="text" class="validate">
+                <label for="first_name">Esfera(SPH)</label>
+              </div>
+              <div class="input-field col s3">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Cilindro(CYL)</label>
+              </div>
+              <div class="input-field col s3">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Eje(AXIS)</label>
+              </div>
+            </div>
+            
+            Ojo Derecho
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">remove_red_eye</i>
+                <input  id="first_name" type="text" class="validate">
+                <label for="first_name">Esfera(SPH)</label>
+              </div>
+              <div class="input-field col s3">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Cilindro(CYL)</label>
+              </div>
+              <div class="input-field col s3">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Eje(AXIS)</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">face</i>
+                <input  id="first_name" type="text" class="validate">
+                <label for="first_name">Distancia pupilar</label>
+              </div>
+              <div class="input-field col s6">
+                <input  id="first_name" type="text" class="validate">
+                <label for="first_name">Agudeza Visual</label>
+              </div>
+            </div>
+                        
+            <div class="row">
+                
+            </div>
+          </form>
+        </div>
+        
+
+        <div class="col s10 m8 l4 center-align">
+          <a class="waves-effect blue darken-3 white-text btn-large" href="form3.html"><i class="material-icons left">all_inclusive</i>Registrar Examen</a>
+        </div>
+
+      </div>
+
+      <!-- 
+       <footer class="page-footer blue darken-3 footer-form">
+          
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Look It
+            <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+          </div>
+        </footer> -->
+
+    </body>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $('select').material_select();
+        });  
+    </script>
+  </html>
+        
